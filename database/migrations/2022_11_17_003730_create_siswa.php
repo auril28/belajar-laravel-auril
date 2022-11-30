@@ -19,7 +19,7 @@ class CreateSiswa extends Migration
             $table->integer('nomor_induk_siswa');
             //nama ...create nama as varchar data type with lenght character 100
             $table->string('nama', 100);
-            //alamt ...create alamat as varchar data type 
+            //alamat ...create alamat as varchar data type 
             $table->string('alamat');
             //jenis_kelamin ...create gender as varchar data type
             $table->string('jenis_kelamin');
